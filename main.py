@@ -39,6 +39,7 @@ class ConsoleUserView(UserView):
         commands = [
             "hello - вітання",
             "add <name> <phone> - додати контакт",
+            "del <name> - видалити контакт",
             "change <name> <old_phone> <new_phone> - змінити телефон",
             "phone <name> - показати телефони",
             "all - показати всі контакти",
